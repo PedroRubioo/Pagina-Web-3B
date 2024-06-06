@@ -1,0 +1,41 @@
+li{
+    font-size: 20px;
+    color: rgb(8, 18, 110);
+    font-weight: lighter;
+}
+#jefe{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.subtitulo{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-style: inherit;
+    font-weight: bold;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 247, 187);
+}
+
+#calc{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: #69b180;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#titulo{
+    background-color: rgb(86, 130, 172);
+    border-radius: 5px;
+}
